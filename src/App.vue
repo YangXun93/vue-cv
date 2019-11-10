@@ -1,28 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+
+  <v-app style=" background: linear-gradient(to bottom, #8DF86A , #D4FFAC);">
+    <v-content>
+
+       <v-row justify="center">
+       <v-col md = "10" lg="8">
+          <h1 align="center">2018</h1>
+      <History18/>
+      <h1 align="center">2019</h1>
+       <History19/>
+         <h1 align="center">Today</h1><br>
+         </v-col>
+       </v-row>
+    </v-content>
+  </v-app>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import History18 from "./components/Timeline2018";
+import History19 from "./components/Timeline2019";
 
 export default {
-  name: 'app',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    History18,
+    History19
+  },
+  data: () => ({
+    //
+  })
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+a{
+    text-decoration: none !important;
+    color: white !important;
+  }
 </style>
