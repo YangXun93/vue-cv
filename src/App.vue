@@ -1,6 +1,6 @@
 <template>
 
-  <v-app style=" background: linear-gradient(to bottom, #8DF86A , #D4FFAC);">
+  <v-app style=" background: linear-gradient(to bottom, #5B81FC, #DAE3FF);">
     <v-content>
 
        <v-row justify="center">
