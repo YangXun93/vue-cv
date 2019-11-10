@@ -8,7 +8,7 @@
         large
         icon="mdi-school"
       >
-        <template v-slot:opposite><h3  style="color: #64B5F6">Febbraio</h3></template>
+        <template v-slot:opposite><h3  style="color: #64B5F6">February</h3></template>
          <v-container>
         <h3 style="font-weight:normal;">Graduation in computer science at Università degli Studi di Milano-Bicocca</h3>
          </v-container>
