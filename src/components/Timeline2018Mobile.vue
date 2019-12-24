@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-timeline>
+    <v-timeline dense align-top>
 
       <v-timeline-item color="blue" fill-dot left large icon="mdi-gamepad-variant-outline">
         <v-card>
